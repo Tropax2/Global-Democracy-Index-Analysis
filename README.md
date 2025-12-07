@@ -1,5 +1,6 @@
 In this repo a simple analysis on the CSV file that contains the values of the global democracy index is performed.
-In this particular case the analysis is done is PostgreSQL and the repo contains:
+In this particular case some part of the analysis is done is PostgreSQL, while the plots are perfomed in Python and the repo contains:
 - A csv file with the data (from https://www.kaggle.com/datasets/umitka/global-democracy-index);
 - A SQL file with a simple analysis consisting of the difference and percentage of change of the index values in 2018 and 2022 across different countries;
-- Some comments about the data are also included.
+- Some comments about the data are also included;
+- A Python file, with the same treatment done in Pandas, and some plots to help visualize results.
