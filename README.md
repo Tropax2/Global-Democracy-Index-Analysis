@@ -1,2 +1,5 @@
-# Global-Democracy-Index-Analysis
-A simple analysis on the Global Democracy Index
+In this repo a simple analysis on the CSV file that contains the values of the global democracy index is performed.
+In this particular case the analysis is done is PostgreSQL and the repo contains:
+- A csv file with the data (from https://www.kaggle.com/datasets/umitka/global-democracy-index);
+- A SQL file with a simple analysis consisting of the difference and percentage of change of the index values in 2018 and 2022 across different countries;
+- Some comments about the data are also included.
