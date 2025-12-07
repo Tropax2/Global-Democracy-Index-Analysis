@@ -20,7 +20,7 @@ Moreover the majority of them are scandinavian contries.
 This comes with no surprise since they are considered by many the countries with 
 the most advanced societies.
 */
--- Lets verify what countries had their biggest decline and the percentage change.
+-- Lets verify what countries had the biggest increase and decline as well as the percentage change.
 SELECT  country_name AS "Country",
         score_2018 AS "2018",
         score_2022 AS "2022",
