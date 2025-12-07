@@ -13,10 +13,11 @@ ax1.set_title("Top 10 countries in the 2022 Global Democracy Index")
 ax1.set_xlabel('Countries')
 ax1.set_ylabel('Index Value')
 plt.show()
+
 global_democracy_index['difference'] = global_democracy_index['score_2022'] - global_democracy_index['score_2018']
 global_democracy_index['percentage_change']= np.round(((global_democracy_index['score_2022'] - global_democracy_index['score_2018']) / global_democracy_index['score_2018'])* 100, 2)
-
 top_10_percentage_change = global_democracy_index.nsmallest(10, 'percentage_change')
+
 # bar plot with the top 10 countries with biggest percentage change
 fig, ax2 = plt.subplots(figsize=(8,8)) 
 ax2.bar(top_10_percentage_change['country_name'], abs(top_10_percentage_change['percentage_change']))
