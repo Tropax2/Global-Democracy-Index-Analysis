@@ -1,4 +1,4 @@
-In this repo a simple analysis on the CSV file that contains the values of the global democracy index is performed.
+This repo contains a simple analysis on the CSV file that contains the values of the global democracy index.
 The analysis is done both in PostgreSQL and Pandas. 
 The repo contains:
 - A CSV file with the data (from https://www.kaggle.com/datasets/umitka/global-democracy-index);
